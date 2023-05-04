@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ee2a2e8b8491742b22c5aa4441a449, type: 3}
+  m_Name: BUSINESS
+  m_EditorClassIdentifier: 
+  _configBusinessModels:
+  - _name: NEWSTANDPAPER
+    _level: 1
+    _incomeDelay: 3
+    _price: 3
+    _income: 3
+    _typesImprovement:
+    - _isPurchased: 0
+      _name: RANGE EXPANSION
+      _price: 50
+      _boostIncome: 0.2
+    - _isPurchased: 0
+      _name: INCREASE IN OUTLETS
+      _price: 75
+      _boostIncome: 0.3
+  - _name: BARBERSHOP
+    _level: 0
+    _incomeDelay: 6
+    _price: 40
+    _income: 40
+    _typesImprovement:
+    - _isPurchased: 0
+      _name: FLYERS DISTRIBUTION
+      _price: 1200
+      _boostIncome: 0.15
+    - _isPurchased: 0
+      _name: STAFF TRAINING
+      _price: 2400
+      _boostIncome: 0.3
+  - _name: CARSHOWROOM
+    _level: 0
+    _incomeDelay: 10
+    _price: 200
+    _income: 200
+    _typesImprovement:
+    - _isPurchased: 0
+      _name: ADVERTISING ON TV
+      _price: 6000
+      _boostIncome: 0.1
+    - _isPurchased: 0
+      _name: TRADE-IN SYSTEM
+      _price: 12000
+      _boostIncome: 0.2
+  - _name: GDA Studio
+    _level: 0
+    _incomeDelay: 17
+    _price: 1000
+    _income: 1000
+    _typesImprovement:
+    - _isPurchased: 0
+      _name: INSTA TARGET
+      _price: 15000
+      _boostIncome: 0.05
+    - _isPurchased: 0
+      _name: PERSONAL CONSULTATION
+      _price: 30000
+      _boostIncome: 0.1
+  - _name: DARKNET
+    _level: 0
+    _incomeDelay: 30
+    _price: 5000
+    _income: 5000
+    _typesImprovement:
+    - _isPurchased: 0
+      _name: ORGAN SALES
+      _price: 100000
+      _boostIncome: 0.03
+    - _isPurchased: 0
+      _name: PEOPLE SAILING
+      _price: 300000
+      _boostIncome: 0.09
